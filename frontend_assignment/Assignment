@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HTML Assignment</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+<style>
+    body
+    {
+        background-color: rgb(249, 247, 247);
+        border: solid 2px rgb(246, 245, 243);
+        height: auto;
+        ;
+    }
+    p{
+  text-align: justify;
+  text-indent: 10px;
+  background-color: whitesmoke;
+  height: auto;
+  width: 55%;
+  margin: auto;
+ padding: 15px;
+    }
+</style>
+
+</head>
+<body>
+    <h1 align="center">Assignment</h1>
+    <center> 
+    <h>
+        <b>Que.1 Are The HTML Tags And Elements The Same 
+            Thing? </b>
+        
+    </h>
+    <p>
+        <b>Ans-</b><p><b>Tags:</b> These are the markup characters used to define the structure of an HTML document. They come in pairs: an opening tag and a closing tag. Forinstance, '< >' is the opening tag for a paragraph, and '< />' is the closing tag. Tags define where an element starts and ends.
+            </p>
+        <p>
+       <b> Elements:</b> An element consists of an opening tag, content, and a closing tag. It's the complete set that represents a specific component or structure within an HTML document. For example, the '< >' tag, its content, and the '</ >' closing tag together form a paragraph element.
+        </p>
+    </p>
+    <h>
+        <b>Que.2 What are tags and attributes in HTML?</b> 
+    </h>
+    <p>
+        <b>Ans-<p> Tags </b>are the fundamental building blocks used to structure a web page. They are enclosed in angle brackets (<>) and usually come in pairs: an opening tag tag and a closing tag (</tag>). Tags define different parts of the content, like headings, paragraphs, images, links, etc. For example, h1 is a tag used to create a top-level heading, and h1 is its closing tag.
+    </p>
+
+       <p><b>Attributes:</b>  provide additional information about HTML elements and are included within the opening tag. They are made up of a name and a value and are used to modify the behavior or provide more details about an element. Attributes are added to tags to change the element's behavior or appearance. For instance, the href attribute in an anchor a tag specifies the URL the link should point to: "a href="https://example.com">Link</a".
+       </p>
+    </p>
+    <h>
+       <b>Que.3 What are void elements in HTML?</b>
+    </h>
+    <p>
+       <b>Ans-</b>Void elements, also known as empty elements, are HTML elements that do not have any content or closing tag.<br> 
+        "img" Stands For embedding images.<br>
+        "br" Stands For line breaks.<br>
+        "input" Stands For various types of input fields.<br>
+        "hr" Stands For horizontal lines.<br>
+
+    </p>
+    <h>
+        <b>Que.4 What are HTML Entities?</b> 
+    </h>   
+    <p>
+        <b>Ans-</b>HTML entities are special codes used to represent characters that have a specific meaning in HTML or characters that are not easily typed or displayed in a web page.<br>
+        *The '&lt;' entity represents the less-than sign '<'.<br>
+        *The '&gt;' entity represents the greater-than sign '>'.<br>
+        *The '&amp;' entity represents the ampersand '&'.<br>
+    </p> 
+    <h>
+         <b>Que.5 What are different types of lists in HTML? </b>
+    </h>
+    <p>
+        <h><b><p>Tag--</b></h><br>
+        1.(ul)<br>
+        2.(ol)<br>
+        3.(li)<br>
+        4.(dl)<br>
+        5.(dt)<br>
+        6.(dd)<br></p>
+       <h><b><p>discripcion</b></h><br>
+        (1)..ul--Defines an unordered list<br>
+        (2)..ol--Defines ordered lists<br>
+        (3)..li--Defines a list item<br>
+        (4)..dl--Defines a description lists<br>
+        (5)..dt--Defines a term in a description lists<br>
+        (6)..dd--Describes the term in a description list<br>
+    </p>
+    <h>
+        <b>Que.6 What is the 'class' attribute in HTML? </b>
+    </h>
+    <p>
+        <b>Ans-</b>The class attribute is used to assign one or more class names to an element, allowing you to apply specific styles or behaviors to elements that share the same class.<br><br>
+        For example, you can define a CSS style rule for a class named "highlight" and then apply this class to various HTML elements like paragraphs, headings, or divs.
+    </p>
+    <h><b>Que.7 What is the difference between the 'id' attribute and the 'class' attribute of HTML
+        elements?
+    </b></h>
+        <p>
+          <b>Ans-</b>
+          The id and class attributes in HTML are both used to uniquely identify elements or group them together, but they serve different purposes:<br><br>
+          
+          <b>1.Id Attribute:</b><br><br>
+          
+          <b>Unique Identifier:</b>The id attribute is used to uniquely identify a single HTML element on a page. Each id must be unique within the HTML document. It is often used when you want to target a specific element with JavaScript or CSS.<br><br>
+
+          <b>2.Class Attribute:</b><br><br>
+
+            <b>Grouping Elements:</b>The class attribute is used to group multiple HTML elements together. Elements with the same class can be styled or manipulated collectively using CSS or JavaScript.
+          </p>
+          <h><b>Que.8 What are the various formatting tags in HTML?</b></h><br>
+            <p><b>Ans-</b>
+            HTML provides several formatting tags that were traditionally used to define the visual appearance or formatting of content.
+                Some of the historically used formatting tags include:<br><br>
+
+1.b - Bold text (Use 'strong' for semantic importance).<br>
+2.i - Italic text (Use 'em' for semantic emphasis).<br>
+3.u - Underlined text.<br>
+4.s - Strikethrough text (Use CSS for similar effects).<br>
+5.sub - Subscript text.<br>
+6.sup - Superscript text.<br>
+7.font - Font settings (Deprecated in HTML5; use CSS for font styling).<br>
+8.big - Enlarged text (Deprecated).<br>
+9.small - Reduced text size (Deprecated).<br>
+10.strike - Strikethrough text (Deprecated; use CSS instead).<br>
+11.center - Center-align content (Deprecated; use CSS for alignment).<br>
+12.tt - Teletype or monospaced text (Deprecated; use CSS for similar effects).<br>
+            </p>
+            <h><b>Que.9 How is Cell Padding different from Cell Spacing?</b></h><br>
+            <p><b>Ans-</b>
+            <b>Cell Padding:</b> Cell padding refers to the space between the content of a table cell and its border. When you set cell padding, you're defining the amount of space that exists between the content of a cell and the cell's border. This padding applies to each individual cell in the table.<br>
+            <b>Cell Spacing:</b> Cell spacing, on the other hand, refers to the space between the cells in a table. It defines the amount of space or gap between adjacent cells in the table.<br>
+            In modern web development, using attributes like cellpadding and cellspacing directly on the table tag is considered somewhat outdated. Instead, CSS is preferred for defining spacing, padding, and other styles.
+</p>
+            <h><b>Que.10 How can we club two or more rows or columns into a single row or column in an HTML 
+                table?</b></h><br>
+                <p><b>Ans-</b></p>
+                    <table border="1">
+                        <tr>
+                            <td rowspan="2">Row 1 - Cell 1</td>
+                            <td>Row 1 - Cell 2</td>
+                        </tr>
+                        <tr>
+                            <td>Row 2 - Cell 2</td>
+                        </tr>
+                    </table>
+            <h><b>Que.11 What is the difference between a block-level element and an inline element?</b></h><br>
+            <p><b>Ans-</b> elements and inline elements are two fundamental display types for HTML elements, and they differ in how they are rendered and how they interact with other elements.<br>
+                <b>1.Block-level elements:</b>
+                Typically start on a new line and take up the full width available (unless specified otherwise by CSS).
+                Examples of block-level elements include 'div', 'p', 'h1' to 'h6', 'ul', 'li', 'table', etc.<br>
+                You can set width, height, margins, padding, and borders for block-level elements.<br>
+<b>2.Inline elements:</b>Do not start on a new line and only take up as much width as necessary.
+Examples of inline elements include 'span', 'a', 'strong', 'em', 'img', 'input', etc.
+You cannot set width, height, or margins for inline elements</p>
+
+                <h><b>Que.12 How to create a Hyperlink in HTML?</b></h><br>
+                <p><b>Ans-</b>
+                    To create a hyperlink in HTML, you use the 'a' (anchor) element along with the 'href' attribute to specify the URL or destination the link will point to.
+                </p>
+                <h><b>Que.13 What is the use of an iframe tag?</b></h><br>
+                <p><b>Ans-</b> 'iframe' tag in HTML stands for "inline frame." It's used to embed another document or webpage within the current HTML document. Essentially, it creates a window through which an external webpage or content can be displayed within the current page.<br>
+                Here are some common uses of the 'iframe' tag:<br>
+            <b> 1.Embedding external content:</b> You can embed content from another website or web page within your own. For example, displaying a map from Google Maps  or embedding a YouTube video.<br>
+            <b>2.Embedding local content:</b> You can display content from within the same website or server by specifying the relative or absolute path to the file.<br>
+           <b> 3.Displaying external content securely:</b> 'iframe' elements can help contain potentially unsafe or untrusted content from external sources within a sandboxed environment, preventing it from affecting the main page's functionality.<br>
+
+                <b>4.Creating inline frames:</b> In some cases, 'iframe' can be used for dividing a webpage into sections, allowing separate browsing contexts within the same document.
+            </p>
+            <h><b>Que.14 What is the use of a span tag? Explain with example?</b></h><br>
+            <p><b>Ans-</b>The 'span' tag in HTML is an inline element used to apply styles or manipulate a specific section of text within a larger block of content.<br>
+            <b>Explanation:</b><br>'p': This is a paragraph element.<br>
+                This is a: Regular text within the paragraph.<br>
+                'span': The 'span' tag wraps around the word "blue" and applies a specific style to it.<br>
+            </p>
+            <h><b>Que.15 How to insert a picture into a background image of a web page?</b></h><br>
+            <p><b>Ans-</b>
+               <!DOCTYPE html>
+<html>
+<head>
+  <title>Background Image with Picture</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="background">
+    <!-- Your content goes here -->
+    <h1>Welcome!</h1>
+    <p>This is some content on top of the background image.</p>
+  </div>
+</body>
+</html>
+            </p>
+        <h><b>Que.16 How are active links different from normal links?</b></h>
+        <p><b>Ans-</b>
+            Active links, also known as "active state" or "active link state," differ from normal links (or default links) based on their appearance or behavior when a user interacts with them.<br><br>
+           Normal links ('a' tags in HTML) have various states:<br><br>
+
+            <b>Normal/Default State: </b> is the initial appearance of a link when it's not interacted with.<br>
+                <b>Hover State:</b> This is when a user hovers their cursor over the link.<br>
+            <b>Visited State:</b> Links that have been visited by the user, usually styled differently from normal links to indicate they've been accessed before.<br>
+                <b>Active State:</b> This is the state when a link is being activated or clicked by the user.<br>
+                The active state occurs while a link is being clicked or activated by the user. It's a transient state that's typically seen when the mouse button is pressed down on the link. The active state usually provides immediate feedback to the user, indicating that their click has been registered.
+                </p>
+                <h><b>Que.17 What are the different tags to separate sections of text?</b></h>
+                <p><b>Ans-</b>There are various HTML tags that you can use to separate sections of text in a web page.<br><br>Here are some commonly used ones:<br>
+
+                    <b>1.'p':</b> Stands for "paragraph" and is used to separate paragraphs of text.'/p'<br>
+                    <b>2.'div':</b> Used as a division or a container to group sections of content or elements.<br>
+                    <b>3.'section':</b> Represents a thematic grouping of content, often used to divide a webpage into sections.<br>
+                    <b>4.'article':</b> Represents an independent piece of content, such as a blog post or news article.<br>
+                    <b>5.'header', 'footer', 'main', 'nav':</b> These are structural tags that can help organize different parts of a webpage.<br>
+                    These tags serve different purposes and help organize content on a webpage, providing structure and semantic meaning to the elements, which can be beneficial for both search engines and accessibility.
+                </p>
+                <h><b>Que.18 What is SVG?</b></h>
+                <p><b>Ans-</b>SVG stands for Scalable Vector Graphics. It's an XML-based vector image format for 2D graphics that supports interactivity and animation. Unlike raster image formats like JPEG or PNG, which use a grid of pixels to represent images, SVG uses XML to describe shapes, curves, text, and other graphical elements.<br>
+                    Key features of SVG include:<br>
+
+                <b>Scalability: </b> images can be scaled up or down without losing quality. They remain sharp and clear at any size because they are based on mathematical descriptions of the shapes.<br>
+
+                <b>Editable:</b> Since SVG is based on XML, SVG images can be created and edited with text editors or specialized vector graphics software like Adobe Illustrator, Inkscape, or Sketch.<br>
+
+                <b>Compact File Size:</b> SVG files tend to be smaller in size compared to raster image formats, especially for images with simple shapes and limited colors.<br>
+
+                <b>Support for Interactivity and Animation:</b> SVG supports scripting and animation through JavaScript, allowing for interactive elements, transitions, and animations within the image itself.<br>
+                </p>
+                <h><b>Que.19 What is difference between HTML and XHTML?</b></h>
+                <p><b>Ans-</b>HTML (HyperText Markup Language) and XHTML (Extensible HyperText Markup Language) are both markup languages used to create web pages, but they have some differences in syntax and rules.<br>
+                    <b>1.Syntax:</b><br>
+                    <b>HTML:</b> has a more forgiving syntax. It allows for some mistakes, such as unclosed tags, omitted quotes around attribute values, and mixed case for tags and attributes.<br>
+                    <b>XHTML:</b>follows stricter syntax rules derived from XML. It requires properly nested tags, lowercase tag names, attribute values enclosed in quotes, and self-closing tags for empty elements.<br>
+                    <b>2.Parsing:</b><br>
+                        <b>HTML:</b> HTML parsers are generally more lenient and can handle some errors, allowing the browser to render the content even if there are minor issues.<br>
+                        <b>XHTML:</b> XHTML parsers are stricter and will often fail to render the page if it encounters errors in the markup. It requires well-formed XML syntax to function correctly.<br>
+                    <b>3.MIME Type:</b><br>
+                        <b>HTML:</b> HTML documents are served with the MIME type 'text/html'.<br>
+                        <b>XHTML:</b> XHTML documents are served with the MIME type 'application/xhtml+xml'.<br>
+                    <b>4.Compatibility:</b><br>
+                        <b>HTML:</b> HTML is more widely supported by browsers and has better backward compatibility with older web pages.<br>
+                        <b>XHTML:</b> While XHTML was introduced as the next step in HTML development, its stricter rules and syntax caused some issues with existing web pages, leading to slower adoption.<br>
+                    <b>5.Extensibility:</b><br>
+                        <b>XHTML:</b> Being based on XML, XHTML is more extensible and can be integrated with other XML-based languages and technologies.<br>
+                        <b>HTML:</b> Traditional HTML has limitations in terms of extensibility due to its syntax and parsing rules.<br>
+                </p>
+                <h><b>Que.20 What are logical and physical tags in HTML?</b></h>
+                <p><b>Ans-</b>In HTML, there's a distinction between logical tags and physical tags that was more relevant in older versions of HTML and hasn't been as prominent in modern HTML5.<br>
+                    <b>1.Physical Tags:</b><br>
+                    
+                    Physical tags refer to tags that describe the appearance or formatting of content rather than its meaning or structure. Examples of physical tags include 'b' (bold), 'i' (italic), 'font' (font formatting), and 'strike' (strikethrough). These tags directly manipulate the visual presentation of text but don't convey the semantic meaning of the content.<br>
+                    <b>2.Logical Tags:</b><br>
+                    
+                    Logical tags, on the other hand, are focused on defining the structure and meaning of content rather than its appearance. They convey the semantics of the content. Examples include 'header', 'nav', 'section', 'article', 'footer', etc., introduced in HTML5. These tags provide a clearer and more meaningful structure to web documents, aiding accessibility,search engine optimization,and understanding of the content's purpose and hierarchy.<br> </p>
+    <h2>*****</h2>
+    </center>
+    
+</body>
+</html>

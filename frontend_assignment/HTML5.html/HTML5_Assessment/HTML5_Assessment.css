@@ -1,0 +1,42 @@
+/* External CSS for styling the navigation bar */
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+}
+
+/* Logo styling */
+.logo img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
+
+/* Menu item styling */
+.menu-item {
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Dropdown styling */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: blueviolet;
+}
+
+/* Show dropdown on hover */
+.menu-item:hover .dropdown {
+    display: block;
+}
+
+/* Dropdown item styling */
+.dropdown label {
+    padding: 10px;
+    display: block;
+}
+
+/* Additional styling as needed */

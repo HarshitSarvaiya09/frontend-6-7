@@ -1,0 +1,84 @@
+(1) What is React Js?
+Ans. React is a JavaScript library,React is Developed by Facebook, React is a powerful JavaScript library used for building user interfaces, particularly for single-page applications.  It allows developers to create large web applications that can change data, without reloading the page.
+
+
+
+
+(2) What is NPM in React Js?
+Ans.  NPM is node package manager which is a package manager for JavaScript and command npm is used to download JavaScript packages from Node Package Manager.
+
+
+
+
+
+(3) What is Role of Node Js in react Js?
+Ans.  Node.js is used to write the server-side code, while React.js is used to write the client-side code.
+
+
+
+
+(4) What is CLI command In React Js?
+Ans.  Command Line Interface is used to use to work with computer program with commands.
+    React js has commands to use CLI.
+    E.G 
+    npx create-react-app my-app
+    npm start  
+
+   
+
+
+(5) What is Components in React Js?
+Ans.  Components are the building blocks of React applications.
+    Components is reusable code which has javascript functions which returns the HTML that the component will render.
+
+   
+
+
+(6) What is Header and Content Components in React Js?
+Ans.  Header components are used to display the website's brand and navigation.
+    They include website's logo, and a menu of links. Header components can also include other search bar, social media
+    icons, or a call to action button.
+
+    Content components are responsible to dislay the main body of the page. It has text, images,map etc. Content
+    components used different types of pages, such as blog, product pages, or contact us, about us pages.
+
+
+
+
+(7) How to install React Js on Windows, Linux Operating System? How to Install
+        NPM and How to check version of NPM?
+Ans.  Installation of react js windows
+
+    1)Install Node.js installer for Windows.
+    2)Check Node js and npm version
+             node -v
+             npm -v 
+    3)Now in the terminal run the below command:
+            1) npx create-react-app app-name
+            2) cd app-name
+            3) npm start
+
+    Installation of react js linux
+    1)Install Node js and Npm with below commands
+            sudo apt update
+            sudo apt install nodejs
+            sudo apt install npm
+    2)then install rect with below command
+             npm install -g create-react-app
+    3)and create new react application
+                create-react-app my-app
+                cd my-app
+                npm start
+
+
+
+(8) How to check version of React Js?
+ans. check react js verson : 
+
+    package.json 
+    
+    "react": "^18.3.1",    
+
+
+
+

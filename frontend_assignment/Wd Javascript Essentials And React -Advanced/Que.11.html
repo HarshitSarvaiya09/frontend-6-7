@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Increment Decrement Example</title>
+<style>
+    body 
+     {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+    button {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    #counter {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+    <h2>Increment / Decrement Example</h2>
+    <div id="counter">0</div>
+    <button id="incrementBtn">Increment</button>
+    <button id="decrementBtn">Decrement</button>
+
+    <script>
+        const counterElement = document.getElementById('counter');
+        const incrementBtn = document.getElementById('incrementBtn');
+        const decrementBtn = document.getElementById('decrementBtn');
+        let count = 0;
+
+        function updateCounter() {
+            counterElement.textContent = count;
+        }
+
+        incrementBtn.addEventListener('click', function() {
+            count++;
+            updateCounter();
+        });
